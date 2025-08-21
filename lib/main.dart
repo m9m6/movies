@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:movies/ui/update_profile/cubit/profile_cubit.dart';
 import 'package:movies/ui/update_profile/profile_screen.dart';
+import 'package:movies/ui/onboarding/onboarding_start.dart';
+import 'package:movies/ui/onboarding/pre_onboarding.dart';
 import 'package:movies/utils/app_routes.dart';
 import 'package:movies/utils/app_themes.dart';
 void main() {
@@ -12,10 +14,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.ProfileScreen,
+      initialRoute: AppRoutes.preBoarding,
       routes: {
-         AppRoutes.ProfileScreen:(context)=> ProfileScreen(),
-
+        AppRoutes.preBoarding:(context)=>PreOnboardingScreen(),
+        AppRoutes.onBoarding:(context)=>OnboardingStart(),
+        AppRoutes.ProfileScreen:(context)=> ProfileScreen(),
       },
       theme: AppThemes.darkTheme,
       themeMode: ThemeMode.dark,
