@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:movies/ui/onboarding/onboarding_start.dart';
+import 'package:movies/ui/onboarding/pre_onboarding.dart';
 import 'package:movies/utils/app_routes.dart';
 import 'package:movies/utils/app_themes.dart';
 
@@ -14,9 +16,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      // initialRoute: AppRoutes.RouteName,
+      initialRoute: AppRoutes.preBoarding,
       routes: {
-        // AppRoutes.RouteName:(context)=>the Screen here(),
+        AppRoutes.preBoarding:(context)=>PreOnboardingScreen(),
+        AppRoutes.onBoarding:(context)=>OnboardingStart(),
       },
       theme: AppThemes.darkTheme,
       themeMode: ThemeMode.dark,
