@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:movies/ui/auth/forget_password/forget_pass.dart';
+import 'package:movies/ui/auth/register/register_page.dart';
 import 'package:movies/ui/onboarding/onboarding_start.dart';
 import 'package:movies/ui/onboarding/pre_onboarding.dart';
 import 'package:movies/utils/app_routes.dart';
@@ -20,6 +22,9 @@ class MyApp extends StatelessWidget {
       routes: {
         AppRoutes.preBoarding:(context)=>PreOnboardingScreen(),
         AppRoutes.onBoarding:(context)=>OnboardingStart(),
+        AppRoutes.registerPage:(context)=>RegisterPage(),
+        AppRoutes.forgetPasswordPage:(context)=>ForgetPasswordPage(),
+
       },
       theme: AppThemes.darkTheme,
       themeMode: ThemeMode.dark,
