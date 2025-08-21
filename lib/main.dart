@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:movies/ui/auth/login/login_screen.dart';
+import 'package:movies/ui/home_screens/home_screen.dart';
 import 'package:movies/ui/update_profile/cubit/profile_cubit.dart';
 import 'package:movies/ui/update_profile/profile_screen.dart';
 import 'package:movies/ui/onboarding/onboarding_start.dart';
@@ -19,6 +21,8 @@ class MyApp extends StatelessWidget {
         AppRoutes.preBoarding:(context)=>PreOnboardingScreen(),
         AppRoutes.onBoarding:(context)=>OnboardingStart(),
         AppRoutes.ProfileScreen:(context)=> ProfileScreen(),
+        AppRoutes.loginScreen:(context)=>LoginScreen(),
+        AppRoutes.homeScreen:(context)=>HomeScreen(),
       },
       theme: AppThemes.darkTheme,
       themeMode: ThemeMode.dark,
