@@ -7,10 +7,10 @@ class CustomTextFormField extends StatefulWidget {
   Widget prefixIcon;
   bool isPassword;
   String hintText;
-  TextEditingController controller = TextEditingController();
+  TextEditingController ?controller = TextEditingController();
   CustomTextFormField({
     super.key,
-    required this.controller,
+     this.controller,
     required this.prefixIcon,
     required this.hintText,
     this.isPassword = false,

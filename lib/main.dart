@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:movies/ui/auth/login/login_screen.dart';
+import 'package:movies/ui/home_screens/home_screen.dart';
 import 'package:movies/ui/auth/forget_password/forget_pass.dart';
 import 'package:movies/ui/auth/register/register_page.dart';
 import 'package:movies/ui/update_profile/cubit/profile_cubit.dart';
@@ -23,7 +25,8 @@ class MyApp extends StatelessWidget {
         AppRoutes.registerPage:(context)=>RegisterPage(),
         AppRoutes.forgetPasswordPage:(context)=>ForgetPasswordPage(),
         AppRoutes.ProfileScreen:(context)=> ProfileScreen(),
-
+        AppRoutes.loginScreen:(context)=>LoginScreen(),
+        AppRoutes.homeScreen:(context)=>HomeScreen(),
       },
       theme: AppThemes.darkTheme,
       themeMode: ThemeMode.dark,
