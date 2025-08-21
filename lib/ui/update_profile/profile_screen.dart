@@ -9,6 +9,7 @@ import '../../utils/app_colors.dart';
 import '../../utils/app_styles.dart';
 import 'cubit/profile_cubit.dart';
 class ProfileScreen extends StatelessWidget {
+  static const String profileScreen = 'Profile_screen';
   const ProfileScreen({super.key});
   @override
   Widget build(BuildContext context) {

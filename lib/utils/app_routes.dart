@@ -1,3 +1,3 @@
 class AppRoutes{
-  static const String RouteName = 'put the name here ';
+  static const String ProfileScreen = ' Profile_screen';
 }
