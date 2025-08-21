@@ -12,8 +12,12 @@ class AppStyles {
       fontSize: 18, fontWeight: FontWeight.w400, color: AppColors.whiteColor);
   static TextStyle regular20White = GoogleFonts.roboto(
       fontSize: 20, fontWeight: FontWeight.w400, color: AppColors.whiteColor);
-  static TextStyle regular24White = GoogleFonts.roboto(
+  static TextStyle inter20White = GoogleFonts.inter(
+      fontSize: 20, fontWeight: FontWeight.w400, color: AppColors.whiteColor);
+  static TextStyle inter24White = GoogleFonts.inter(
       fontSize: 24, fontWeight: FontWeight.w700, color: AppColors.whiteColor);
+  static TextStyle large36White = GoogleFonts.inter(
+      fontSize: 36, fontWeight: FontWeight.w500, color: AppColors.whiteColor,);
 
   // ========= Black Colors =========
   static TextStyle regular12Black = GoogleFonts.roboto(
