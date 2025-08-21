@@ -7,9 +7,10 @@ class CustomTextFormField extends StatefulWidget {
   Widget prefixIcon;
   bool isPassword;
   String hintText;
-
+  TextEditingController controller = TextEditingController();
   CustomTextFormField({
     super.key,
+    required this.controller,
     required this.prefixIcon,
     required this.hintText,
     this.isPassword = false,
@@ -32,6 +33,7 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
   Widget build(BuildContext context) {
     return TextFormField(
       obscureText: obscureText,
+      controller: widget.controller,
       style: AppStyles.regular16White,
       decoration: InputDecoration(
         filled: true,
