@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movies/utils/app_colors.dart';
+import 'package:movies/utils/app_routes.dart';
 import 'package:movies/utils/assets_manager.dart';
 import '../../utils/app_styles.dart';
 import '../custom_widgets/custom_elevatedButton.dart';
@@ -27,7 +28,7 @@ class _OnBoardingScreenState extends State<OnboardingStart> {
       );
     } else {
       //TODO:Add the screen here so we can navigate
-      Navigator.pushReplacementNamed(context, '');
+      Navigator.pushReplacementNamed(context, AppRoutes.loginScreen);
     }
   }
 

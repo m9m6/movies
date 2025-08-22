@@ -12,6 +12,8 @@ class AppStyles {
       fontSize: 18, fontWeight: FontWeight.w400, color: AppColors.whiteColor);
   static TextStyle regular20White = GoogleFonts.roboto(
       fontSize: 20, fontWeight: FontWeight.w400, color: AppColors.whiteColor);
+  static TextStyle regular24White = GoogleFonts.roboto(
+      fontSize: 24, fontWeight: FontWeight.w400, color: AppColors.whiteColor);
   static TextStyle inter20White = GoogleFonts.inter(
       fontSize: 20, fontWeight: FontWeight.w400, color: AppColors.whiteColor);
   static TextStyle inter24White = GoogleFonts.inter(
