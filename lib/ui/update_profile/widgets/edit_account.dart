@@ -30,6 +30,7 @@ class _EditAccountState extends State<EditAccount> {
             return SingleChildScrollView(
               child: Column(
                 spacing: 10,
+
                 children: [
                   ProfileAvatar(imageUrl: AssetsManager.profile1),
                   CustomTextFormField(

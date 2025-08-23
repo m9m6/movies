@@ -109,6 +109,7 @@ class ProfileTab extends StatelessWidget {
                 ),
                 Expanded(
                   child: TabBarView(
+
                     children: [
                       Center(child: Image.asset(AssetsManager.profile2)),
                       HistoryList(),
