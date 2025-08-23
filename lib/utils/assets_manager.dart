@@ -26,5 +26,7 @@ class AssetsManager {
       'assets/images/unselected_profile_icon.png';
   static const String unSelectedSearchIcon =
       'assets/images/unselected_search_icon.png';
+  static const String profile1 = 'assets/images/gamer (1) (1).png';
+  static const String profile2 = 'assets/images/Empty 1.png';
 
 }

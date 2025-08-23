@@ -17,7 +17,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int selectedIndex = 0;
-  List tabs = [HomeTab(), ProfileTab(), SearchTabTab(), ExploreTab()];
+  List tabs = [HomeTab(), SearchTabTab(), ExploreTab(),ProfileTab()];
 
   @override
   Widget build(BuildContext context) {
