@@ -3,6 +3,7 @@ import 'package:movies/utils/app_colors.dart';
 import 'package:movies/utils/assets_manager.dart';
 
 class AvatarSelector extends StatelessWidget {
+  //0//
   final int selectedAvatar;
   final Function(int) onAvatarSelected;
 

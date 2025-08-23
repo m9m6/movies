@@ -3,6 +3,7 @@ import 'package:movies/utils/app_colors.dart';
 import 'package:movies/utils/assets_manager.dart';
 
 class LanguageSwitcher extends StatelessWidget {
+  //0//
   final String selectedLang; // "en" أو "ar"
   final Function(String) onLanguageChanged;
 

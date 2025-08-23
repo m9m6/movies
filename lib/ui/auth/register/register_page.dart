@@ -7,6 +7,7 @@ import 'widgets/avatar_selector.dart';
 import 'widgets/language_switcher.dart';
 
 class RegisterPage extends StatefulWidget {
+    //0//
   static const String registerPage = 'register_page';
 
   const RegisterPage({super.key});

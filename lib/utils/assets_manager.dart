@@ -1,4 +1,5 @@
 class AssetsManager {
+  //0//
   static const String moviesPostersGroup1 = 'assets/images/movies_posters_group_1.png';
   static const String moviesPostersGroup2 = 'assets/images/movies_posters_group_2.png';
   static const String moviesPostersGroup3 = 'assets/images/movies_posters_group_3.png';

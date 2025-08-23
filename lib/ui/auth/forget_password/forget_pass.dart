@@ -5,6 +5,7 @@ import 'package:movies/utils/assets_manager.dart';
 import '../../../utils/app_colors.dart';
 
 class ForgetPasswordPage extends StatelessWidget {
+  //0//
   static const String forgetPasswordPage = 'forget_password_page';
 
   const ForgetPasswordPage({super.key});
