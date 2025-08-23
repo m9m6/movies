@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'app_colors.dart';
 
 class AppStyles {
+  //0//
   // ========= White Colors =========
   static TextStyle regular12White = GoogleFonts.roboto(
       fontSize: 12, fontWeight: FontWeight.w400, color: AppColors.whiteColor);
