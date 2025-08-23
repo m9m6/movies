@@ -1,5 +1,5 @@
 class AssetsManager {
-
+  //0//
   static const String moviesPostersGroup1 = 'assets/images/movies_posters_group_1.png';
   static const String moviesPostersGroup2 = 'assets/images/movies_posters_group_2.png';
   static const String moviesPostersGroup3 = 'assets/images/movies_posters_group_3.png';
@@ -29,4 +29,21 @@ class AssetsManager {
   static const String profile1 = 'assets/images/gamer (1) (1).png';
   static const String profile2 = 'assets/images/Empty 1.png';
 
+  static const String appLogo = 'assets/images/app_logo.png';
+  static const String splashBranding = 'assets/images/splash_branding.png';
+
+  static const String avatar1 = 'assets/images/avatar1.png';
+  static const String avatar2 = 'assets/images/avatar2.png';
+  static const String avatar3 = 'assets/images/avatar3.png';
+
+  static const String eg = 'assets/images/EG.png';
+  static const String us = 'assets/images/us.png';
+
+  static const String iconConfirmPass = 'assets/images/icon_confirm_pass.png';
+  static const String iconName = 'assets/images/icon_name.png';
+  static const String iconPass = 'assets/images/icon_pass.png';
+  static const String iconPhone = 'assets/images/icon_phone.png';
+
+  static const String forget = 'assets/images/forget.png';
+  static const String iconEmail = 'assets/images/icon_email.png';
 }

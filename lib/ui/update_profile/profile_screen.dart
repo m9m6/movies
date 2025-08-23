@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movies/ui/custom_widgets/custom_elevatedButton.dart';
@@ -8,6 +7,7 @@ import 'package:movies/ui/update_profile/widgets/profile_avatar.dart';
 import '../../utils/app_colors.dart';
 import '../../utils/app_styles.dart';
 import 'cubit/profile_cubit.dart';
+
 class ProfileScreen extends StatelessWidget {
   static const String profileScreen = 'Profile_screen';
   const ProfileScreen({super.key});
