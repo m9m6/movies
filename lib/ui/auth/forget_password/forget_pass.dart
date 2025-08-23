@@ -25,7 +25,9 @@ class ForgetPasswordPage extends StatelessWidget {
             Icons.arrow_back,
             color: AppColors.yellowColor,
           ),
-          onPressed: () => Navigator.pop(context),
+          onPressed: () {
+            Navigator.pushReplacementNamed(context, 'login_screen');
+          },
         ),
         title: Text(
           "Forget Password",

@@ -49,7 +49,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 alignment: Alignment.centerRight,
                 child: CustomTextButton(
                   onPressed: () {
-                   // Navigator.pushReplacementNamed(context, AppRoutes.forgetPasswordPage);
+                   Navigator.pushReplacementNamed(context, AppRoutes.forgetPasswordPage);
                   },
                   textStyle: AppStyles.regular12Yellow.copyWith(fontSize: 14),
                   text: 'Forget Password?',
@@ -67,7 +67,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 children: [
                   Text('Don’t Have Account?', style: AppStyles.regular12Yellow.copyWith(fontSize: 14)),
                   CustomTextButton(onPressed: () {
-                  //  Navigator.pushReplacementNamed(context, AppRoutes.registerPage);
+                   Navigator.pushReplacementNamed(context, AppRoutes.registerPage);
                   }, text: 'Create One'),
                 ],
               ),

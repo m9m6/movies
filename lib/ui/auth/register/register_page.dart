@@ -7,7 +7,7 @@ import 'widgets/avatar_selector.dart';
 import 'widgets/language_switcher.dart';
 
 class RegisterPage extends StatefulWidget {
-    //0//
+  //0//
   static const String registerPage = 'register_page';
 
   const RegisterPage({super.key});
@@ -30,10 +30,19 @@ class _RegisterPageState extends State<RegisterPage> {
       backgroundColor: AppColors.darkBlackColor,
       appBar: AppBar(
         backgroundColor: AppColors.darkBlackColor,
-        leading: Icon(
-          Icons.arrow_back,
-          color: AppColors.yellowColor,
-          size: width * 0.06,
+        leading: IconButton(
+          icon: Icon(
+            Icons.arrow_back,
+            color: AppColors.yellowColor,
+            size: width * 0.06,
+          ),
+          onPressed: () {
+            Navigator.pushNamedAndRemoveUntil(
+              context,
+              'login_screen',
+                  (Route<dynamic> route) => false,
+            );
+          },
         ),
         title: Text(
           "Register",
@@ -120,7 +129,13 @@ class _RegisterPageState extends State<RegisterPage> {
                   style: AppStyles.regular16White,
                 ),
                 GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pushNamedAndRemoveUntil(
+                      context,
+                      'login_screen', // route name للـ LoginScreen
+                          (Route<dynamic> route) => false,
+                    );
+                  },
                   child: Text(
                     "Login",
                     style: AppStyles.bold16Yellow,
